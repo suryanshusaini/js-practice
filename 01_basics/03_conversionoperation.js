@@ -45,7 +45,18 @@ console.log(isnameBool);
 
 
 //-------------STRING TO NUMBER----------------
+/*
 let somenum = 33;
 let stringnum = String(somenum);
 console.log(stringnum);
 console.log(typeof stringnum);
+*/
+
+
+
+//**********----- OPERATIONS ----**********
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "3");
