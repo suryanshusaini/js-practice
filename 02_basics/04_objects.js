@@ -1,3 +1,4 @@
+/*
 //now we will be doing singleton and contructor
 const tinderUser = new Object(); // this is singleton
 // const obj = {}; // non-singleton
@@ -54,4 +55,22 @@ console.log(obj3);
 //to check it exist
 // console.log(tinderUser.hasOwnProperty('isLogged'));
 
+*/
+//**********[ OBJECT DE-STRUCTURING ]**************/
+// remember destructuring is also in array 
+const course = {
+    coursename : "js in hindi",
+    price : "999",
+    courseinstructor : "hitesh"
+}
+// course.instructor
+const {courseinstructor : instructor} = course;
+// const {courseinstructor} = course;
+// console.log(courseinstructor);
+console.log(instructor);
 
+//******* [ API CONCEPT ] ******
+// -> basically apna kaam kisi or k sar par daal dena
+//{"name" : "surya"} => this is JSON
+//fetch
+// it's also possible that API will not always be {} it can also be [{},{}] objcet inside array
